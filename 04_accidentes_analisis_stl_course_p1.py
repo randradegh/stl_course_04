@@ -357,17 +357,17 @@ with st.echo(code_location='above'):
              color="Tipo de Accidente", facet_col ="Alcaldía", facet_col_wrap= 4,
     width = 1200, height = 1000
 )
-    BGCOLOR = "#A9BCF5"
+    BGCOLOR = "#0B0B61"
 
     fig.update_layout({
         'plot_bgcolor': BGCOLOR,
         'paper_bgcolor': BGCOLOR,
         'font_family':"Cantarell",
         'font_size': 14,
-        'font_color' :"#0B2161",
+        'font_color' :"white",
         'title_font_family':"Cantarell",
-        'title_font_color':"black",
-        'legend_title_font_color':"black"    
+        'title_font_color':"#0174DF",
+        'legend_title_font_color':"white"    
     })
 
     fig
